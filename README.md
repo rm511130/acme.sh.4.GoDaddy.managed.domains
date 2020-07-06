@@ -44,7 +44,7 @@ Resolving deltas: 100% (6477/6477), done.
 
 ```
 cd ~/.acme.sh
-./acme.sh --issue --dns dns_gd -d pcf4u.com -d '*.pcf4u.com' -d '*.pks.pcf4u.com' -d '*.apps.pcf4u.com' -d '*.sys.pcf4u.com' -d '*.login.sys.pcf4u.com' -d '*.uaa.sys.pcf4u.com'
+./acme.sh --issue --dns dns_gd -d pcf4u.com -d '*.pcf4u.com' -d '*.sys.pcf4u.com' -d '*.pks.pcf4u.com' -d '*.apps.pcf4u.com' -d '*.login.sys.pcf4u.com' -d '*.uaa.sys.pcf4u.com'
 ```
 
 - Note: to renew a cert use: `acme.sh --renew -d pcf4u.com --force`
