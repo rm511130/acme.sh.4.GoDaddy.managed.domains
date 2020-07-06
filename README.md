@@ -1,0 +1,1 @@
+# acme.sh.4.GoDaddy.managed.domains
