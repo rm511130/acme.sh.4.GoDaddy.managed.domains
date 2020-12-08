@@ -47,6 +47,13 @@ cd ~/.acme.sh
 ./acme.sh --issue --dns dns_gd -d '*.pcf4u.com' -d '*.sys.pcf4u.com' -d '*.pks.pcf4u.com' -d '*.apps.pcf4u.com' -d '*.login.sys.pcf4u.com' -d '*.uaa.sys.pcf4u.com'
 ```
 
+- Just for ease of cut-&-paste, if the desired domain is `ourpcf.com` them the command lines are:
+
+```
+cd ~/.acme.sh
+./acme.sh --issue --dns dns_gd -d '*.ourpcf.com' -d '*.sys.ourpcf.com' -d '*.pks.ourpcf.com' -d '*.apps.ourpcf.com' -d '*.login.sys.ourpcf.com' -d '*.uaa.sys.ourpcf.com'
+```
+
 - Note: to renew a cert use: `acme.sh --renew -d pcf4u.com --force`
 
 - After the `acme.sh` does its magic... you will eventually see:
