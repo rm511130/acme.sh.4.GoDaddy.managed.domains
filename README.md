@@ -47,7 +47,7 @@ cd ~/.acme.sh
 ./acme.sh --issue --dns dns_gd -d '*.pcf4u.com' -d '*.sys.pcf4u.com' -d '*.pks.pcf4u.com' -d '*.apps.pcf4u.com' -d '*.login.sys.pcf4u.com' -d '*.uaa.sys.pcf4u.com'
 ```
 
-- Just for ease of cut-&-paste, if the desired domain is `ourpcf.com` them the command lines are:
+- Just for ease of cut-&-paste, if the desired domain is `ourpcf.com` then the command lines are:
 
 ```
 cd ~/.acme.sh
@@ -193,6 +193,14 @@ Serial Number: 0a0141420000015385736a0b85eca708
 ```
 
 - More details re: `acme.sh` are available at https://github.com/acmesh-official/acme.sh
+
+- One last thing, if you need a public-key extracted from the certificate, you can do the following:
+
+```
+cd  ~/.acme.sh/pcf4u.com
+openssl x509 -inform PEM -in pcf4u.com.cer -pubkey -noout > certificate_publickey.pem
+cat certificate_publickey.pem
+```
 
 
 
