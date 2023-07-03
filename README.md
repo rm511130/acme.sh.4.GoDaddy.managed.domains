@@ -9,8 +9,8 @@
 - Start by getting API keys from: https://developer.godaddy.com/keys/
 
 ```
-export GD_Key="dKP1FBK7baAM_65SEvX9AdM8j9kBqEgfiKj"
-export GD_Secret="GuaFk14UNPB5k7hJPx2ucs"
+export GD_Key="dKP_a_A_A_A_A_A_A__A_A_A_FAKE_qEgfiKj"
+export GD_Secret="GuFAKE_FAKE_cs"
 ```
 
 - If you don't have `acme.sh` yet, you can get it using the following commands:
